@@ -11,7 +11,8 @@ positional arguments
 
 optional arguments
 
-- `-p, --patterns`: unix-style filename match patterns; supports '*' and mutliple values separated by spaces
+- `-p, --patterns`: unix-style filename match patterns; supports '\*' and mutliple values separated by spaces
+
   - **ex.:** `-p testfile-01*`
   - **ex. (multi):** `-p testfile-01* some-other*pattern third-p*tt*rn`
   - **ex.:** `--patterns=testfile-01*`
@@ -19,12 +20,14 @@ optional arguments
   - **multi:** `True`
 
 - `-i, --inputFile`: path to .csv file containing two columns ('pattern', 'extensions'), with each row as an individual pattern to match on. 'extensions' column allows for matching only certain file types.
+
   - **ex.:** `-i inputFile.csv`
   - **ex.:** `--inputFile=inputFile.csv`
   - **default:** `None`
   - **multi:** `False`
 
 - `-e, --exts`: list of file extensions to filter matched files by
+
   - **note:** any 'extensions' column in passed inputFile overrides exts passed at command line as arguments
   - **ex.:** `-e .png`
   - **ex. (multi):** `-e .png .exr .ProRes`
@@ -42,7 +45,7 @@ If `-i` passed with input file path, then the script can import a list of patter
 
 ### File Columns
 
-- **(required) 'pattern':**  pattern values; supports unix-style pattern matching with '*', etc.
+- **(required) 'pattern':** pattern values; supports unix-style pattern matching with '\*', etc.
 - **(optional) 'extensions':** list of file types to filter matched files by
   - **note:** must include 'dot' ('.'), i.e. '.xlsx', '.png', etc.
   - **note:** 'extensions' column overrides exts passed at command line as arguments, but script will use command line arguments if no 'extensions' column in .csv
