@@ -67,7 +67,7 @@ def check_inputs(args):
                 args.inputFile))
             sys.exit()
 
-    # Check for some patternj
+    # Check for some pattern
     if not (args.inputFile or args.patterns):
         print('! Exiting script: Must provide either -p or -i.')
         sys.exit()
