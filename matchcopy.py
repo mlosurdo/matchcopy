@@ -151,6 +151,9 @@ def copy_file(path, src, dst, mode):
 
 
 def main(args):
+    # Validate input
+    check_inputs(args)
+
     # Search src for pattern(s) passed to script
     matches = find_all_pattern_matches(args)
 
@@ -233,6 +236,8 @@ if __name__ == '__main__':
         default='copy'
     )
 
+    # Get arguments passed at command line
     args = parser.parse_args()
-    check_inputs(args)
+
+    # Run main
     main(args)
