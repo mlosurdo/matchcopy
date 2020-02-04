@@ -41,7 +41,7 @@ optional arguments
 
 ## CSV Input File
 
-If `-i` passed with input file path, then the script can import a list of patterns, and, if desired, a filter for file type extensions.
+If `-i` passed with input file path, then the script can import a list of patterns, and, if desired, a filter for file type extensions. See `inputFile.csv` in `/examples` for reference.
 
 ### File Columns
 
