@@ -1,0 +1,20 @@
+Total number of files copied/moved: 6
+
+Old: /Users/michaellosurdo/Projects/selah-script/testfiles/sub/test-20.txt
+New: /Users/michaellosurdo/Projects/selah-script/target/sub/test-20.txt
+
+Old: /Users/michaellosurdo/Projects/selah-script/testfiles/sub/test-12.txt
+New: /Users/michaellosurdo/Projects/selah-script/target/sub/test-12.txt
+
+Old: /Users/michaellosurdo/Projects/selah-script/testfiles/sub/sub2/test-20.txt
+New: /Users/michaellosurdo/Projects/selah-script/target/sub/sub2/test-20.txt
+
+Old: /Users/michaellosurdo/Projects/selah-script/testfiles/sub/sub2/test-12.txt
+New: /Users/michaellosurdo/Projects/selah-script/target/sub/sub2/test-12.txt
+
+Old: /Users/michaellosurdo/Projects/selah-script/testfiles/test-12.txt
+New: /Users/michaellosurdo/Projects/selah-script/target/test-12.txt
+
+Old: /Users/michaellosurdo/Projects/selah-script/testfiles/test-20.txt
+New: /Users/michaellosurdo/Projects/selah-script/target/test-20.txt
+

@@ -1,0 +1,6 @@
+pattern,extensions
+test-1,".txt,.png"
+test-11,".txt,.png"
+test-32,.txt
+test-47,.csv
+test-99,.png
