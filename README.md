@@ -1,6 +1,6 @@
 # MatchCopy
 
-Python script for copying/moving pattern-matched files in source directory to some target directory while maintaining the source directory's original tree structure. Can take in individual patterns at command line or via a .csv file. Additionally, will provide a receipt of "old" and "new" destinations for files as a .txt in same directory as script.
+Python script for copying/moving pattern-matched files in source directory to some destination directory while maintaining the source directory's original tree structure. Can take in individual patterns at command line or via a .csv file. Additionally, will provide a receipt of "old" and "new" destinations for files as a .txt in same directory as script.
 
 ## Arguments
 

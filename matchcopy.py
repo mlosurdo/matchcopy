@@ -209,14 +209,14 @@ if __name__ == '__main__':
         '-p',
         '--patterns',
         nargs='+',
-        help='Single filename pattern to search/move.',
+        help='List of filename patterns to match, separated by spaces.',
         default=None
     )
 
     parser.add_argument(
         '-i',
         '--inputFile',
-        help='Path to .csv file containing filename patterns to search/move.',
+        help='Path to .csv containing filename patterns/exts to match.',
         default=None
     )
 
@@ -224,14 +224,14 @@ if __name__ == '__main__':
         '-e',
         '--exts',
         nargs='+',
-        help='List of extensions to copy/move, separated by spaces.',
+        help='List of file exts to filter matched by, separated by spaces.',
         default=None
     )
 
     parser.add_argument(
         '-m',
         '--mode',
-        help='Defines what to do with file when found, "copy" vs "move".',
+        help='Defines what to do with file when found: "copy" vs "move".',
         choices=['copy', 'c', 'move', 'm'],
         default='copy'
     )
