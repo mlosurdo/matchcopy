@@ -50,13 +50,17 @@ If `-i` passed with input file path, then the script can import a list of patter
 ## Uses
 
 Absolute paths (preferred):
+
 `python matchcopy.py /source/absolute/path /destination/absolute/path -p match*this -e .txt`
 
 Supports relative paths if script located in some top directory:
+
 `python matchcopy.py ./source/relative/path ./destination/relative/path -p match*this -e .txt`
 
 Multiple patterns and file extensions:
+
 `python matchcopy.py /source/absolute/path /destination/absolute/path -p match*this and*also*this *why*not-a-third* -e .txt .png .exr`
 
-Input file with explicit 'move' mode
+Input file with explicit 'move' mode:
+
 `python matchcopy.py /source/absolute/path /destination/absolute/path -i /path/to/inputFile.csv -m move`
