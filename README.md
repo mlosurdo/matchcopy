@@ -38,6 +38,7 @@ optional arguments
 
 - `-m, --mode`: mode of copy when match found, i.e. copy (does not alter original file) vs 'move' (moves original file to dst directory)
   - **WARNING:** script utilizes python builtin module `shutil`. Moving files may cause loss of some metadata. See module's warning [here](https://docs.python.org/3/library/shutil.html).
+  - **default:** `copy`
 
 ## CSV Input File
 
