@@ -129,7 +129,9 @@ def find_all_pattern_matches(args):
 
 
 def copy_file(path, src, dst, mode):
-    part = re.sub(src, '', path)[1:]
+    part = re.sub(src, '', path)
+    if part.startswith(('/', '\\')):
+        part = part[1:]
     newpath = os.path.join(dst, part)
     newdir = os.path.dirname(newpath)
 
